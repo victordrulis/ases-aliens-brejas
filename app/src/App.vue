@@ -1,11 +1,16 @@
 <template>
   <h1>Ases & Brejas</h1>
-  <base-card>Soon...</base-card>
+  <base-card>
+    <p>Soon...</p>
+    <base-button>Feed</base-button>
+  </base-card>
 </template>
 
 <script>
+import BaseButton from './components/ui/BaseButton.vue'
 
 export default {
+  components: { BaseButton },
   name: 'Ases&Brejas',
 }
 </script>
